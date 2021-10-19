@@ -4,6 +4,7 @@ numbers[numbers.length] = 10
 numbers.push(11)
 numbers.push(12, 13)
 
+// inserido itens no array
 Array.prototype.insertFirstPosition = function (value) {
   for (let i = this.length; i >= 0; i--) {
     this[i] = this[i - 1]
